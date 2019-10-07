@@ -21,6 +21,14 @@ public class PlayerManager
 	public static void RemovePlayer(string id){
 		players.Remove(id);
 	}
+    //给所有玩家法消息
+    public void Send(MsgBase msgBase)
+    {
+        foreach (var item in players.Values)
+        {
+            item.Send(msgBase);
+        }
+    }
 }
 
 

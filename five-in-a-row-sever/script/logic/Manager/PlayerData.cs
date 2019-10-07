@@ -5,13 +5,7 @@
     public int level = 0;
     //经验
     public int EXP = 0;
-    //段位
-    public int DuanWei = 0;
-    //段位经验
-    public int DuanWeiEXP = 0;
-    //vip等级
-    public int VIPLevel = 0;
-    //vip等级
+    //vip经验
     public int VIPEXP = 0;
     //胜利数
     public int WinNumber = 0;
